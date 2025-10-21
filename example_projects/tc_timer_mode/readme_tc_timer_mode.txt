@@ -1,0 +1,1 @@
+tc_timer_mode example project is taken from the folder csp_apps_pic32cm_mc00

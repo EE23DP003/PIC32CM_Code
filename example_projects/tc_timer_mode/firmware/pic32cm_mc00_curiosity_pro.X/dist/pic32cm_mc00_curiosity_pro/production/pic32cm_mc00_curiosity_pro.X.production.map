@@ -1,0 +1,948 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+                              build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/startup_xc32.o (__pic32c_data_initialization)
+c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-size-musl.a(memcpy.o)
+                              build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o (memcpy)
+c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
+                              build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/startup_xc32.o (__libc_init_array)
+c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(libc.o)
+                              c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o) (__progname_full)
+c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__environ.o)
+                              c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o) (__environ)
+c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_clear.o)
+                              (__dinit_clear_needed)
+c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_copy.o)
+                              (__dinit_copy_needed)
+
+Microchip PIC32 Memory-Usage Report
+
+ROM Program-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.vectors                         0           0xac         172   
+.text                         0xac           0x20          32  App's exec code 
+.text.CLOCK_Initialize        0xcc           0x84         132   
+.text.__libc_start_init      0x150           0x5c          92   
+.text                        0x1ac           0x48          72  App's exec code 
+.text.Reset_Handler          0x1f4           0x48          72   
+.text.TC0_TimerInitiali      0x23c           0x44          68   
+.text.__pic32c_data_ini      0x280           0x38          56   
+.text.TC0_TimerInterrup      0x2b8           0x34          52   
+.dinit                       0x2ec           0x30          48   
+.text.SYS_Initialize         0x31c           0x28          40   
+.text.NVIC_Initialize        0x344           0x24          36   
+.text.__dinit_copy           0x368           0x1e          30   
+.text.EVSYS_Initialize       0x386            0x2           2   
+.text.TC0_TimerStart         0x388           0x1c          28   
+.text.main                   0x3a4           0x1c          28   
+.text.PORT_Initialize        0x3c0           0x16          22   
+.text.Dummy_Handler          0x3d6            0x2           2   
+.rodata                      0x3d8           0x14          20  Read-only const 
+.text.__dinit_clear          0x3ec           0x12          18   
+.text.NonMaskableInt_Ha      0x3fe            0x2           2   
+.text.NVMCTRL_Initializ      0x400            0xc          12   
+.text.TC0_TimerCallback      0x40c            0xc          12   
+.text.TC0_Callback_Inte      0x418            0xc          12   
+.text.__dummy_decompres      0x424            0x4           4   
+.text.HardFault_Handler      0x428            0x2           2   
+.text.Dummy_App_Func         0x42a            0x2           2   
+.text.__dummy_init_tls       0x42c            0x2           2   
+.text.__dummy                0x42e            0x2           2   
+      Total ROM used  :       0x430        1072  0.8% of 0x20000
+        --------------------------------------------------------------------------
+         Total Program Memory used  :       0x430        1072  0.8% of 0x20000
+        --------------------------------------------------------------------------
+
+
+RAM Data-Memory Usage
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+.bss                    0x20000000           0x50          80  Uninitialized data 
+.bss                    0x20000050           0x1c          28  Uninitialized data 
+.bss.TC0_CallbackObject 0x2000006c            0x8           8   
+.bss                    0x20000074            0x4           4  Uninitialized data 
+.bss                    0x20000078            0x4           4  Uninitialized data 
+         Total RAM used  :        0x7c         124  0.8% of 0x4000
+        --------------------------------------------------------------------------
+            Total Data Memory used  :        0x7c         124  0.8% of 0x4000
+        --------------------------------------------------------------------------
+
+
+Dynamic Data-Memory Reservation
+section                    address  length [bytes]      (dec)  Description
+-------                 ----------  -------------------------  -----------
+heap                    0x20000080          0x200         512  Reserved for heap 
+stack                   0x20000298         0x3d58       15704  Reserved for stack 
+
+        --------------------------------------------------------------------------
+
+Microchip PIC32 Memory-Usage Report By Module
+
+        text        data         bss         dec         hex    basename                   filename
+--------------------------------------------------------------------------------
+         174           0           0         174          ae    interrupts.o           build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/interrupts.o
+         160           0           8         168          a8    plib_tc0.o             build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+         132           0           0         132          84    plib_clock.o           build/pic32cm_mc00_curiosity_pro/production/_ext/676635429/plib_clock.o
+          80           0          28         108          6c    crtbegin.o             c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+          94           0           0          94          5e    __libc_start_main.o    libc-musl.a
+          82           0           4          86          56    data_init.o            libpic32c.a
+           0           0          80          80          50    libc.o                 libc-musl.a
+          74           0           0          74          4a    startup_xc32.o         build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/startup_xc32.o
+          48           0           0          48          30    data_init              data_init
+          48           0           0          48          30    initialization.o       build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/initialization.o
+          40           0           0          40          28    main.o                 build/pic32cm_mc00_curiosity_pro/production/_ext/1360937237/main.o
+          36           0           0          36          24    plib_nvic.o            build/pic32cm_mc00_curiosity_pro/production/_ext/160711403/plib_nvic.o
+          30           0           0          30          1e    pic32_data_init_copy.o libpic32c.a
+          22           0           0          22          16    plib_port.o            build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+          18           0           0          18          12    pic32_data_init_clear.olibpic32c.a
+          16           0           0          16          10    crtn.o                 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtn.o
+          12           0           0          12           c    plib_nvmctrl.o         build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+           8           0           0           8           8    crti.o                 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crti.o
+           4           0           0           4           4    exceptions.o           build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/exceptions.o
+           0           0           4           4           4    __environ.o            libc-musl.a
+           2           0           0           2           2    plib_evsys.o           build/pic32cm_mc00_curiosity_pro/production/_ext/678784915/plib_evsys.o
+--------------------------------------------------------------------------------
+        1080           0         124        1204         4b4    dist/pic32cm_mc00_curiosity_pro/production/pic32cm_mc00_curiosity_pro.X.production.elf
+
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crti.o
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crti.o
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crti.o
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crti.o
+ .xc_stack_usage
+                0x0000000000000000       0x26 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crti.o
+ .data          0x0000000000000000        0x4 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+ .xc_stack_usage
+                0x0000000000000000       0x3c c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+ .text          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/676635429/plib_clock.o
+ .data          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/676635429/plib_clock.o
+ .bss           0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/676635429/plib_clock.o
+ .text          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/678784915/plib_evsys.o
+ .data          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/678784915/plib_evsys.o
+ .bss           0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/678784915/plib_evsys.o
+ .text          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/160711403/plib_nvic.o
+ .data          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/160711403/plib_nvic.o
+ .bss           0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/160711403/plib_nvic.o
+ .text.NVIC_INT_Enable
+                0x0000000000000000        0x8 build/pic32cm_mc00_curiosity_pro/production/_ext/160711403/plib_nvic.o
+ .text.NVIC_INT_Disable
+                0x0000000000000000       0x12 build/pic32cm_mc00_curiosity_pro/production/_ext/160711403/plib_nvic.o
+ .text.NVIC_INT_Restore
+                0x0000000000000000       0x14 build/pic32cm_mc00_curiosity_pro/production/_ext/160711403/plib_nvic.o
+ .text.NVIC_INT_SourceDisable
+                0x0000000000000000       0x3c build/pic32cm_mc00_curiosity_pro/production/_ext/160711403/plib_nvic.o
+ .text.NVIC_INT_SourceRestore
+                0x0000000000000000       0x1c build/pic32cm_mc00_curiosity_pro/production/_ext/160711403/plib_nvic.o
+ .text          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .data          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .bss           0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .text.NVMCTRL_CacheInvalidate
+                0x0000000000000000       0x10 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .text.NVMCTRL_DATA_FLASH_Read
+                0x0000000000000000       0x10 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .text.NVMCTRL_DATA_FLASH_PageWrite
+                0x0000000000000000       0x28 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .text.NVMCTRL_DATA_FLASH_RowErase
+                0x0000000000000000       0x18 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .text.NVMCTRL_Read
+                0x0000000000000000       0x10 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .text.NVMCTRL_PageBufferWrite
+                0x0000000000000000       0x14 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .text.NVMCTRL_PageBufferCommit
+                0x0000000000000000       0x30 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .text.NVMCTRL_PageWrite
+                0x0000000000000000       0x28 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .text.NVMCTRL_RowErase
+                0x0000000000000000       0x18 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .text.NVMCTRL_USER_ROW_PageWrite
+                0x0000000000000000       0x38 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .text.NVMCTRL_USER_ROW_RowErase
+                0x0000000000000000       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .text.NVMCTRL_ErrorGet
+                0x0000000000000000       0x28 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .text.NVMCTRL_IsBusy
+                0x0000000000000000       0x14 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .text.NVMCTRL_RegionLock
+                0x0000000000000000       0x14 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .text.NVMCTRL_RegionUnlock
+                0x0000000000000000       0x14 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .text.NVMCTRL_InterruptFlagGet
+                0x0000000000000000       0x10 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .text.NVMCTRL_SecurityBitSet
+                0x0000000000000000       0x10 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .text.NVMCTRL_ChipEraseHardLockSet
+                0x0000000000000000       0x10 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .text          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+ .data          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+ .bss           0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+ .text.PORT_GroupRead
+                0x0000000000000000        0x4 build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+ .text.PORT_GroupWrite
+                0x0000000000000000        0xc build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+ .text.PORT_GroupLatchRead
+                0x0000000000000000        0x4 build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+ .text.PORT_GroupSet
+                0x0000000000000000        0x4 build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+ .text.PORT_GroupClear
+                0x0000000000000000        0x4 build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+ .text.PORT_GroupToggle
+                0x0000000000000000        0x4 build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+ .text.PORT_GroupInputEnable
+                0x0000000000000000       0x2a build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+ .text.PORT_GroupOutputEnable
+                0x0000000000000000        0x4 build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+ .text.PORT_PinPeripheralFunctionConfig
+                0x0000000000000000       0x46 build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+ .text.PORT_PinGPIOConfig
+                0x0000000000000000       0x1e build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+ .text          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+ .data          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+ .bss           0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+ .text.TC0_TimerStop
+                0x0000000000000000       0x1c build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+ .text.TC0_TimerFrequencyGet
+                0x0000000000000000        0x8 build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+ .text.TC0_TimerCommandSet
+                0x0000000000000000       0x18 build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+ .text.TC0_Timer16bitCounterGet
+                0x0000000000000000       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+ .text.TC0_Timer16bitCounterSet
+                0x0000000000000000       0x14 build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+ .text.TC0_Timer16bitPeriodSet
+                0x0000000000000000       0x14 build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+ .text.TC0_Timer16bitPeriodGet
+                0x0000000000000000        0xc build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+ .text          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1429341023/xc32_monitor.o
+ .data          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1429341023/xc32_monitor.o
+ .bss           0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1429341023/xc32_monitor.o
+ .text.read     0x0000000000000000        0x6 build/pic32cm_mc00_curiosity_pro/production/_ext/1429341023/xc32_monitor.o
+ .text.write    0x0000000000000000        0x6 build/pic32cm_mc00_curiosity_pro/production/_ext/1429341023/xc32_monitor.o
+ .debug_info    0x0000000000000000       0xf5 build/pic32cm_mc00_curiosity_pro/production/_ext/1429341023/xc32_monitor.o
+ .debug_abbrev  0x0000000000000000       0xb2 build/pic32cm_mc00_curiosity_pro/production/_ext/1429341023/xc32_monitor.o
+ .debug_loc     0x0000000000000000       0x4a build/pic32cm_mc00_curiosity_pro/production/_ext/1429341023/xc32_monitor.o
+ .debug_aranges
+                0x0000000000000000       0x28 build/pic32cm_mc00_curiosity_pro/production/_ext/1429341023/xc32_monitor.o
+ .debug_ranges  0x0000000000000000       0x18 build/pic32cm_mc00_curiosity_pro/production/_ext/1429341023/xc32_monitor.o
+ .debug_line    0x0000000000000000       0xe1 build/pic32cm_mc00_curiosity_pro/production/_ext/1429341023/xc32_monitor.o
+ .debug_str     0x0000000000000000      0x2b1 build/pic32cm_mc00_curiosity_pro/production/_ext/1429341023/xc32_monitor.o
+ .comment       0x0000000000000000       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/1429341023/xc32_monitor.o
+ .debug_frame   0x0000000000000000       0x30 build/pic32cm_mc00_curiosity_pro/production/_ext/1429341023/xc32_monitor.o
+ .ARM.attributes
+                0x0000000000000000       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/1429341023/xc32_monitor.o
+ .text          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/initialization.o
+ .data          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/initialization.o
+ .bss           0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/initialization.o
+ .text          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/interrupts.o
+ .data          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/interrupts.o
+ .bss           0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/interrupts.o
+ .text          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/exceptions.o
+ .data          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/exceptions.o
+ .bss           0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/exceptions.o
+ .text          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/startup_xc32.o
+ .data          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/startup_xc32.o
+ .bss           0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/startup_xc32.o
+ .text          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/libc_syscalls.o
+ .data          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/libc_syscalls.o
+ .bss           0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/libc_syscalls.o
+ .text._exit    0x0000000000000000        0x2 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/libc_syscalls.o
+ .debug_info    0x0000000000000000       0xaa build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/libc_syscalls.o
+ .debug_abbrev  0x0000000000000000       0x5d build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/libc_syscalls.o
+ .debug_loc     0x0000000000000000       0x15 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/libc_syscalls.o
+ .debug_aranges
+                0x0000000000000000       0x20 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/libc_syscalls.o
+ .debug_ranges  0x0000000000000000       0x10 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/libc_syscalls.o
+ .debug_line    0x0000000000000000       0x6e build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/libc_syscalls.o
+ .debug_str     0x0000000000000000      0x2f5 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/libc_syscalls.o
+ .comment       0x0000000000000000       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/libc_syscalls.o
+ .debug_frame   0x0000000000000000       0x20 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/libc_syscalls.o
+ .ARM.attributes
+                0x0000000000000000       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/libc_syscalls.o
+ .text          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1360937237/main.o
+ .data          0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1360937237/main.o
+ .bss           0x0000000000000000        0x0 build/pic32cm_mc00_curiosity_pro/production/_ext/1360937237/main.o
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+ .xc_stack_usage
+                0x0000000000000000       0x68 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-size-musl.a(memcpy.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-size-musl.a(memcpy.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-size-musl.a(memcpy.o)
+ .xc_stack_usage
+                0x0000000000000000       0x14 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-size-musl.a(memcpy.o)
+ .text.memcpy   0x0000000000000000       0x14 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-size-musl.a(memcpy.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-size-musl.a(memcpy.o)
+ .debug_info    0x0000000000000000       0xed c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-size-musl.a(memcpy.o)
+ .debug_abbrev  0x0000000000000000       0xbb c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-size-musl.a(memcpy.o)
+ .debug_loc     0x0000000000000000      0x12d c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-size-musl.a(memcpy.o)
+ .debug_aranges
+                0x0000000000000000       0x20 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-size-musl.a(memcpy.o)
+ .debug_ranges  0x0000000000000000       0x10 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-size-musl.a(memcpy.o)
+ .debug_line    0x0000000000000000       0xee c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-size-musl.a(memcpy.o)
+ .debug_str     0x0000000000000000      0x225 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-size-musl.a(memcpy.o)
+ .comment       0x0000000000000000       0x2c c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-size-musl.a(memcpy.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-size-musl.a(memcpy.o)
+ .debug_frame   0x0000000000000000       0x28 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-size-musl.a(memcpy.o)
+ .ARM.attributes
+                0x0000000000000000       0x2e c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-size-musl.a(memcpy.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
+ .xc_stack_usage
+                0x0000000000000000       0x34 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(libc.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(libc.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(libc.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__environ.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__environ.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__environ.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtend.o
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtend.o
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtend.o
+ .eh_frame      0x0000000000000000        0x4 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtend.o
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtend.o
+ .comment       0x0000000000000000       0x2c c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtend.o
+ .ARM.attributes
+                0x0000000000000000       0x2c c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtend.o
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtn.o
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtn.o
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtn.o
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtn.o
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .xc_stack_usage
+                0x0000000000000000       0x1b c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .text          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_copy.o)
+ .data          0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_copy.o)
+ .bss           0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_copy.o)
+ .xc_stack_usage
+                0x0000000000000000       0x1a c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_copy.o)
+ .xc_stack_usage.hdr
+                0x0000000000000000        0xe c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x0000000000000000 0x0000000000020000 xrl
+ram              0x0000000020000000 0x0000000000004000 xw !r
+config_D0804000  0x00000000d0804000 0x0000000000000004
+config_D0806020  0x00000000d0806020 0x0000000000000004
+config_D0804004  0x00000000d0804004 0x0000000000000004
+config_D0806034  0x00000000d0806034 0x0000000000000004
+config_D0806030  0x00000000d0806030 0x0000000000000004
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crti.o
+LOAD c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+LOAD build/pic32cm_mc00_curiosity_pro/production/_ext/676635429/plib_clock.o
+LOAD build/pic32cm_mc00_curiosity_pro/production/_ext/678784915/plib_evsys.o
+LOAD build/pic32cm_mc00_curiosity_pro/production/_ext/160711403/plib_nvic.o
+LOAD build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+LOAD build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+LOAD build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+LOAD build/pic32cm_mc00_curiosity_pro/production/_ext/1429341023/xc32_monitor.o
+LOAD build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/initialization.o
+LOAD build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/interrupts.o
+LOAD build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/exceptions.o
+LOAD build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/startup_xc32.o
+LOAD build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/libc_syscalls.o
+LOAD build/pic32cm_mc00_curiosity_pro/production/_ext/1360937237/main.o
+                0x0000000000000001                __MPLAB_BUILD = 0x1
+                0x0000000000020000                __rom_end = (ORIGIN (rom) + LENGTH (rom))
+                0x0000000020004000                __ram_end = (ORIGIN (ram) + LENGTH (ram))
+
+.config_D0804000
+ *(.config_D0804000)
+
+.config_D0806020
+ *(.config_D0806020)
+
+.config_D0804004
+ *(.config_D0804004)
+
+.config_D0806034
+ *(.config_D0806034)
+
+.config_D0806030
+ *(.config_D0806030)
+
+.vectors        0x0000000000000000       0xac
+                0x0000000000000000                . = ALIGN (0x4)
+                0x0000000000000000                _sfixed = .
+ *(.vectors .vectors.* .vectors_default .vectors_default.*)
+ .vectors.exception_table
+                0x0000000000000000       0xac build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/interrupts.o
+                0x0000000000000000                exception_table
+ *(.isr_vector)
+ *(.reset*)
+ *(.after_vectors)
+
+.text           0x00000000000000ac       0x20
+                0x00000000000000ac                . = ALIGN (0x4)
+ *(.glue_7t)
+ .glue_7t       0x00000000000000ac        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000000000ac        0x0 linker stubs
+ *(.gnu.linkonce.r.*)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00000000000000ac                . = ALIGN (0x4)
+ *(.init)
+ .init          0x00000000000000ac        0x4 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crti.o
+                0x00000000000000ac                _init
+ .init          0x00000000000000b0        0x8 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtn.o
+                0x00000000000000b8                . = ALIGN (0x4)
+                0x00000000000000b8                __preinit_array_start = .
+ *(.preinit_array)
+                0x00000000000000b8                __preinit_array_end = .
+                0x00000000000000b8                . = ALIGN (0x4)
+                0x00000000000000b8                __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+ .init_array    0x00000000000000b8        0x4 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x00000000000000bc                __init_array_end = .
+                0x00000000000000bc                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *crtend.o(.ctors)
+                0x00000000000000bc                . = ALIGN (0x4)
+ *(.fini)
+ .fini          0x00000000000000bc        0x4 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crti.o
+                0x00000000000000bc                _fini
+ .fini          0x00000000000000c0        0x8 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtn.o
+                0x00000000000000c8                . = ALIGN (0x4)
+                0x00000000000000c8                __fini_array_start = .
+ *(.fini_array)
+ .fini_array    0x00000000000000c8        0x4 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+ *(SORT_BY_NAME(.fini_array.*))
+                0x00000000000000cc                __fini_array_end = .
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *crtend.o(.dtors)
+                0x00000000000000cc                . = ALIGN (0x4)
+                0x00000000000000cc                _efixed = .
+                [!provide]                        PROVIDE (__exidx_start = .)
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                [!provide]                        PROVIDE (__exidx_end = .)
+                0x00000000000000cc                . = ALIGN (0x4)
+                0x00000000000000cc                _etext = .
+
+.bss            0x0000000020000000        0x0
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                __bss_start__ = .
+                0x0000000020000000                _sbss = .
+                0x0000000020000000                _szero = .
+ *(COMMON)
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                __bss_end__ = .
+                0x0000000020000000                _ebss = .
+                0x0000000020000000                _ezero = .
+                0x0000000020000000                . = ALIGN (0x4)
+                0x0000000020000000                _end = .
+                0x0000000020003fff                _ram_end_ = ((ORIGIN (ram) + LENGTH (ram)) - 0x1)
+                0x0000000000000200                _min_heap_size = 0x200
+START GROUP
+LOAD c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a
+LOAD c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-size-musl.a
+LOAD c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\liblmalloc-musl.a
+LOAD c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libm-fast-emfloat.a
+LOAD c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libm-musl.a
+LOAD c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a
+LOAD c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libm-fast-emfloat.a
+LOAD c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libm-musl.a
+LOAD c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp\libgcc.a
+END GROUP
+LOAD c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtend.o
+LOAD c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtn.o
+OUTPUT(dist/pic32cm_mc00_curiosity_pro/production/pic32cm_mc00_curiosity_pro.X.production.elf elf32-littlearm)
+LOAD data_init
+LOAD stack
+
+.ARM.attributes
+                0x0000000000000000       0x2c
+ .ARM.attributes
+                0x0000000000000000       0x1e c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crti.o
+ .ARM.attributes
+                0x000000000000001e       0x2c c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+ .ARM.attributes
+                0x000000000000004a       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/676635429/plib_clock.o
+ .ARM.attributes
+                0x0000000000000076       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/678784915/plib_evsys.o
+ .ARM.attributes
+                0x00000000000000a2       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/160711403/plib_nvic.o
+ .ARM.attributes
+                0x00000000000000ce       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .ARM.attributes
+                0x00000000000000fa       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+ .ARM.attributes
+                0x0000000000000126       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+ .ARM.attributes
+                0x0000000000000152       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/initialization.o
+ .ARM.attributes
+                0x000000000000017e       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/interrupts.o
+ .ARM.attributes
+                0x00000000000001aa       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/exceptions.o
+ .ARM.attributes
+                0x00000000000001d6       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/startup_xc32.o
+ .ARM.attributes
+                0x0000000000000202       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/1360937237/main.o
+ .ARM.attributes
+                0x000000000000022e       0x2c c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+ .ARM.attributes
+                0x000000000000025a       0x2e c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
+ .ARM.attributes
+                0x0000000000000288       0x2e c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(libc.o)
+ .ARM.attributes
+                0x00000000000002b6       0x2e c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__environ.o)
+ .ARM.attributes
+                0x00000000000002e4       0x1e c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtn.o
+ .ARM.attributes
+                0x0000000000000302       0x2c c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .ARM.attributes
+                0x000000000000032e       0x2c c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+.comment        0x0000000000000000       0x2b
+ .comment       0x0000000000000000       0x2b c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+                                         0x2c (size before relaxing)
+ .comment       0x000000000000002b       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/676635429/plib_clock.o
+ .comment       0x000000000000002b       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/678784915/plib_evsys.o
+ .comment       0x000000000000002b       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/160711403/plib_nvic.o
+ .comment       0x000000000000002b       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .comment       0x000000000000002b       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+ .comment       0x000000000000002b       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+ .comment       0x000000000000002b       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/initialization.o
+ .comment       0x000000000000002b       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/interrupts.o
+ .comment       0x000000000000002b       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/exceptions.o
+ .comment       0x000000000000002b       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/startup_xc32.o
+ .comment       0x000000000000002b       0x2c build/pic32cm_mc00_curiosity_pro/production/_ext/1360937237/main.o
+ .comment       0x000000000000002b       0x2c c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+ .comment       0x000000000000002b       0x2c c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
+ .comment       0x000000000000002b       0x2c c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(libc.o)
+ .comment       0x000000000000002b       0x2c c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__environ.o)
+ .comment       0x000000000000002b       0x2c c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .comment       0x000000000000002b       0x2c c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+.debug_info     0x0000000000000000     0x36c7
+ .debug_info    0x0000000000000000      0x5ce build/pic32cm_mc00_curiosity_pro/production/_ext/676635429/plib_clock.o
+ .debug_info    0x00000000000005ce       0x9b build/pic32cm_mc00_curiosity_pro/production/_ext/678784915/plib_evsys.o
+ .debug_info    0x0000000000000669      0x78c build/pic32cm_mc00_curiosity_pro/production/_ext/160711403/plib_nvic.o
+ .debug_info    0x0000000000000df5      0x72b build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .debug_info    0x0000000000001520      0x697 build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+ .debug_info    0x0000000000001bb7      0x814 build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+ .debug_info    0x00000000000023cb      0x2b2 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/initialization.o
+ .debug_info    0x000000000000267d      0x39b build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/interrupts.o
+ .debug_info    0x0000000000002a18       0xb3 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/exceptions.o
+ .debug_info    0x0000000000002acb      0x205 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/startup_xc32.o
+ .debug_info    0x0000000000002cd0      0x308 build/pic32cm_mc00_curiosity_pro/production/_ext/1360937237/main.o
+ .debug_info    0x0000000000002fd8       0x68 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+ .debug_info    0x0000000000003040      0x2fb c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
+ .debug_info    0x000000000000333b      0x276 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(libc.o)
+ .debug_info    0x00000000000035b1       0x97 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__environ.o)
+ .debug_info    0x0000000000003648       0x3f c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .debug_info    0x0000000000003687       0x40 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+.debug_abbrev   0x0000000000000000     0x10b4
+ .debug_abbrev  0x0000000000000000      0x129 build/pic32cm_mc00_curiosity_pro/production/_ext/676635429/plib_clock.o
+ .debug_abbrev  0x0000000000000129       0x46 build/pic32cm_mc00_curiosity_pro/production/_ext/678784915/plib_evsys.o
+ .debug_abbrev  0x000000000000016f      0x255 build/pic32cm_mc00_curiosity_pro/production/_ext/160711403/plib_nvic.o
+ .debug_abbrev  0x00000000000003c4      0x1f2 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .debug_abbrev  0x00000000000005b6      0x206 build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+ .debug_abbrev  0x00000000000007bc      0x1be build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+ .debug_abbrev  0x000000000000097a       0xf4 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/initialization.o
+ .debug_abbrev  0x0000000000000a6e       0xc0 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/interrupts.o
+ .debug_abbrev  0x0000000000000b2e       0x49 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/exceptions.o
+ .debug_abbrev  0x0000000000000b77      0x118 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/startup_xc32.o
+ .debug_abbrev  0x0000000000000c8f      0x11c build/pic32cm_mc00_curiosity_pro/production/_ext/1360937237/main.o
+ .debug_abbrev  0x0000000000000dab       0x44 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+ .debug_abbrev  0x0000000000000def      0x133 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
+ .debug_abbrev  0x0000000000000f22       0xd4 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(libc.o)
+ .debug_abbrev  0x0000000000000ff6       0x62 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__environ.o)
+ .debug_abbrev  0x0000000000001058       0x2e c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .debug_abbrev  0x0000000000001086       0x2e c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+.debug_loc      0x0000000000000000      0xc37
+ .debug_loc     0x0000000000000000       0x45 build/pic32cm_mc00_curiosity_pro/production/_ext/676635429/plib_clock.o
+ .debug_loc     0x0000000000000045      0x153 build/pic32cm_mc00_curiosity_pro/production/_ext/160711403/plib_nvic.o
+ .debug_loc     0x0000000000000198      0x685 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .debug_loc     0x000000000000081d      0x29b build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+ .debug_loc     0x0000000000000ab8       0x74 build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+ .debug_loc     0x0000000000000b2c       0x45 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/initialization.o
+ .debug_loc     0x0000000000000b71       0x20 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/startup_xc32.o
+ .debug_loc     0x0000000000000b91       0x20 build/pic32cm_mc00_curiosity_pro/production/_ext/1360937237/main.o
+ .debug_loc     0x0000000000000bb1       0x14 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+ .debug_loc     0x0000000000000bc5       0x5e c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
+ .debug_loc     0x0000000000000c23       0x14 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+.debug_aranges  0x0000000000000000      0x398
+ .debug_aranges
+                0x0000000000000000       0x20 build/pic32cm_mc00_curiosity_pro/production/_ext/676635429/plib_clock.o
+ .debug_aranges
+                0x0000000000000020       0x20 build/pic32cm_mc00_curiosity_pro/production/_ext/678784915/plib_evsys.o
+ .debug_aranges
+                0x0000000000000040       0x48 build/pic32cm_mc00_curiosity_pro/production/_ext/160711403/plib_nvic.o
+ .debug_aranges
+                0x0000000000000088       0xb0 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .debug_aranges
+                0x0000000000000138       0x70 build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+ .debug_aranges
+                0x00000000000001a8       0x70 build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+ .debug_aranges
+                0x0000000000000218       0x20 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/initialization.o
+ .debug_aranges
+                0x0000000000000238       0x20 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/interrupts.o
+ .debug_aranges
+                0x0000000000000258       0x28 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/exceptions.o
+ .debug_aranges
+                0x0000000000000280       0x28 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/startup_xc32.o
+ .debug_aranges
+                0x00000000000002a8       0x28 build/pic32cm_mc00_curiosity_pro/production/_ext/1360937237/main.o
+ .debug_aranges
+                0x00000000000002d0       0x30 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+ .debug_aranges
+                0x0000000000000300       0x28 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
+ .debug_aranges
+                0x0000000000000328       0x18 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(libc.o)
+ .debug_aranges
+                0x0000000000000340       0x18 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__environ.o)
+ .debug_aranges
+                0x0000000000000358       0x20 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .debug_aranges
+                0x0000000000000378       0x20 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+.debug_ranges   0x0000000000000000      0x2a8
+ .debug_ranges  0x0000000000000000       0x10 build/pic32cm_mc00_curiosity_pro/production/_ext/676635429/plib_clock.o
+ .debug_ranges  0x0000000000000010       0x10 build/pic32cm_mc00_curiosity_pro/production/_ext/678784915/plib_evsys.o
+ .debug_ranges  0x0000000000000020       0x50 build/pic32cm_mc00_curiosity_pro/production/_ext/160711403/plib_nvic.o
+ .debug_ranges  0x0000000000000070       0xa0 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .debug_ranges  0x0000000000000110       0x60 build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+ .debug_ranges  0x0000000000000170       0x60 build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+ .debug_ranges  0x00000000000001d0       0x10 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/initialization.o
+ .debug_ranges  0x00000000000001e0       0x10 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/interrupts.o
+ .debug_ranges  0x00000000000001f0       0x18 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/exceptions.o
+ .debug_ranges  0x0000000000000208       0x18 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/startup_xc32.o
+ .debug_ranges  0x0000000000000220       0x18 build/pic32cm_mc00_curiosity_pro/production/_ext/1360937237/main.o
+ .debug_ranges  0x0000000000000238       0x20 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+ .debug_ranges  0x0000000000000258       0x30 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
+ .debug_ranges  0x0000000000000288       0x10 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .debug_ranges  0x0000000000000298       0x10 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+.debug_line     0x0000000000000000     0x1ce8
+ .debug_line    0x0000000000000000      0x1e8 build/pic32cm_mc00_curiosity_pro/production/_ext/676635429/plib_clock.o
+ .debug_line    0x00000000000001e8       0x79 build/pic32cm_mc00_curiosity_pro/production/_ext/678784915/plib_evsys.o
+ .debug_line    0x0000000000000261      0x3a5 build/pic32cm_mc00_curiosity_pro/production/_ext/160711403/plib_nvic.o
+ .debug_line    0x0000000000000606      0x4b5 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .debug_line    0x0000000000000abb      0x2d5 build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+ .debug_line    0x0000000000000d90      0x35c build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+ .debug_line    0x00000000000010ec      0x2c2 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/initialization.o
+ .debug_line    0x00000000000013ae       0xcd build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/interrupts.o
+ .debug_line    0x000000000000147b       0x82 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/exceptions.o
+ .debug_line    0x00000000000014fd      0x16a build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/startup_xc32.o
+ .debug_line    0x0000000000001667      0x179 build/pic32cm_mc00_curiosity_pro/production/_ext/1360937237/main.o
+ .debug_line    0x00000000000017e0       0xa5 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+ .debug_line    0x0000000000001885      0x1bc c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
+ .debug_line    0x0000000000001a41       0xb5 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(libc.o)
+ .debug_line    0x0000000000001af6       0xfb c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__environ.o)
+ .debug_line    0x0000000000001bf1       0x6f c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .debug_line    0x0000000000001c60       0x88 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+.debug_str      0x0000000000000000     0x48bb
+ .debug_str     0x0000000000000000      0x698 build/pic32cm_mc00_curiosity_pro/production/_ext/676635429/plib_clock.o
+ .debug_str     0x0000000000000698      0x313 build/pic32cm_mc00_curiosity_pro/production/_ext/678784915/plib_evsys.o
+ .debug_str     0x00000000000009ab      0x682 build/pic32cm_mc00_curiosity_pro/production/_ext/160711403/plib_nvic.o
+ .debug_str     0x000000000000102d      0x628 build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .debug_str     0x0000000000001655      0x817 build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+ .debug_str     0x0000000000001e6c      0x630 build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+ .debug_str     0x000000000000249c      0x465 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/initialization.o
+ .debug_str     0x0000000000002901      0x60a build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/interrupts.o
+ .debug_str     0x0000000000002f0b      0x31a build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/exceptions.o
+ .debug_str     0x0000000000003225      0x38c build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/startup_xc32.o
+ .debug_str     0x00000000000035b1      0x432 build/pic32cm_mc00_curiosity_pro/production/_ext/1360937237/main.o
+ .debug_str     0x00000000000039e3      0x1fc c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+ .debug_str     0x0000000000003bdf      0x3ca c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
+ .debug_str     0x0000000000003fa9      0x335 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(libc.o)
+ .debug_str     0x00000000000042de      0x235 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__environ.o)
+ .debug_str     0x0000000000004513      0x1d5 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .debug_str     0x00000000000046e8      0x1d3 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+.debug_frame    0x0000000000000000      0x578
+ .debug_frame   0x0000000000000000       0x20 build/pic32cm_mc00_curiosity_pro/production/_ext/676635429/plib_clock.o
+ .debug_frame   0x0000000000000020       0x20 build/pic32cm_mc00_curiosity_pro/production/_ext/678784915/plib_evsys.o
+ .debug_frame   0x0000000000000040       0x7c build/pic32cm_mc00_curiosity_pro/production/_ext/160711403/plib_nvic.o
+ .debug_frame   0x00000000000000bc      0x16c build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+ .debug_frame   0x0000000000000228       0xd8 build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+ .debug_frame   0x0000000000000300       0xc8 build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+ .debug_frame   0x00000000000003c8       0x28 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/initialization.o
+ .debug_frame   0x00000000000003f0       0x20 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/interrupts.o
+ .debug_frame   0x0000000000000410       0x30 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/exceptions.o
+ .debug_frame   0x0000000000000440       0x38 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/startup_xc32.o
+ .debug_frame   0x0000000000000478       0x38 build/pic32cm_mc00_curiosity_pro/production/_ext/1360937237/main.o
+ .debug_frame   0x00000000000004b0       0x48 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+ .debug_frame   0x00000000000004f8       0x38 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
+ .debug_frame   0x0000000000000530       0x20 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_clear.o)
+ .debug_frame   0x0000000000000550       0x28 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_copy.o)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(libc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__environ.o)
+
+.stack          0x0000000020000298      0x100
+ .stack         0x0000000020000298      0x100 stack
+
+.bss%1          0x0000000020000000       0x50
+ .bss           0x0000000020000000       0x50 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(libc.o)
+                0x0000000020000000                __progname_full
+                0x0000000020000000                program_invocation_name
+                0x0000000020000004                program_invocation_short_name
+                0x0000000020000004                __progname
+                0x0000000020000008                __sysinfo
+                0x000000002000000c                __hwcap
+                0x0000000020000010                __libc
+
+.bss%2          0x0000000020000050       0x1c
+ .bss           0x0000000020000050       0x1c c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+
+.bss.TC0_CallbackObject%3
+                0x000000002000006c        0x8
+ .bss.TC0_CallbackObject
+                0x000000002000006c        0x8 build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+
+.bss%4          0x0000000020000074        0x4
+ .bss           0x0000000020000074        0x4 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+
+.bss%5          0x0000000020000078        0x4
+ .bss           0x0000000020000078        0x4 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__environ.o)
+                0x0000000020000078                __environ
+                0x0000000020000078                environ
+                0x0000000020000078                ___environ
+                0x0000000020000078                _environ
+
+.eh_frame%z1    0x0000000000000000        0x0
+ .eh_frame      0x0000000000000000        0x0 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+
+.config_00804000.__config_00804000%6
+                0x0000000000804000        0x4
+ .config_00804000.__config_00804000
+                0x0000000000804000        0x4 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/initialization.o
+                0x0000000000804000                __config_00804000
+
+.config_00804004.__config_00804004%7
+                0x0000000000804004        0x4
+ .config_00804004.__config_00804004
+                0x0000000000804004        0x4 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/initialization.o
+                0x0000000000804004                __config_00804004
+
+.text.CLOCK_Initialize%8
+                0x00000000000000cc       0x84
+ .text.CLOCK_Initialize
+                0x00000000000000cc       0x84 build/pic32cm_mc00_curiosity_pro/production/_ext/676635429/plib_clock.o
+                0x00000000000000cc                CLOCK_Initialize
+
+.text.__libc_start_init%9
+                0x0000000000000150       0x5c
+ .text.__libc_start_init
+                0x0000000000000150       0x5c c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
+                0x0000000000000150                __libc_init_array
+
+.text%10        0x00000000000001ac       0x48
+ .text          0x00000000000001ac       0x48 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/thumb/v6-m/nofp/crtbegin.o
+
+.text.Reset_Handler%11
+                0x00000000000001f4       0x48
+ .text.Reset_Handler
+                0x00000000000001f4       0x48 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/startup_xc32.o
+                0x00000000000001f4                Reset_Handler
+
+.text.TC0_TimerInitialize%12
+                0x000000000000023c       0x44
+ .text.TC0_TimerInitialize
+                0x000000000000023c       0x44 build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+                0x000000000000023c                TC0_TimerInitialize
+
+.text.__pic32c_data_initialization%13
+                0x0000000000000280       0x38
+ .text.__pic32c_data_initialization
+                0x0000000000000280       0x38 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+                0x0000000000000280                __pic32c_data_initialization
+
+.text.TC0_TimerInterruptHandler%14
+                0x00000000000002b8       0x34
+ .text.TC0_TimerInterruptHandler
+                0x00000000000002b8       0x34 build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+                0x00000000000002b8                TC0_TimerInterruptHandler
+
+.dinit%15       0x00000000000002ec       0x30
+ .dinit         0x00000000000002ec       0x30 data_init
+
+.text.SYS_Initialize%16
+                0x000000000000031c       0x28
+ .text.SYS_Initialize
+                0x000000000000031c       0x28 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/initialization.o
+                0x000000000000031c                SYS_Initialize
+
+.text.NVIC_Initialize%17
+                0x0000000000000344       0x24
+ .text.NVIC_Initialize
+                0x0000000000000344       0x24 build/pic32cm_mc00_curiosity_pro/production/_ext/160711403/plib_nvic.o
+                0x0000000000000344                NVIC_Initialize
+
+.text.__dinit_copy%18
+                0x0000000000000368       0x1e
+ .text.__dinit_copy
+                0x0000000000000368       0x1e c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_copy.o)
+                0x0000000000000368                __dinit_copy_needed
+                0x0000000000000368                __dinit_copy
+
+.text.TC0_TimerStart%19
+                0x0000000000000388       0x1c
+ .text.TC0_TimerStart
+                0x0000000000000388       0x1c build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+                0x0000000000000388                TC0_TimerStart
+
+.text.main%20   0x00000000000003a4       0x1c
+ .text.main     0x00000000000003a4       0x1c build/pic32cm_mc00_curiosity_pro/production/_ext/1360937237/main.o
+                0x00000000000003a4                main
+
+.text.PORT_Initialize%21
+                0x00000000000003c0       0x16
+ .text.PORT_Initialize
+                0x00000000000003c0       0x16 build/pic32cm_mc00_curiosity_pro/production/_ext/160764554/plib_port.o
+                0x00000000000003c0                PORT_Initialize
+
+.rodata%22      0x00000000000003d8       0x14
+ .rodata        0x00000000000003d8       0x14 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+
+.text.__dinit_clear%23
+                0x00000000000003ec       0x12
+ .text.__dinit_clear
+                0x00000000000003ec       0x12 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(pic32_data_init_clear.o)
+                0x00000000000003ec                __dinit_clear
+                0x00000000000003ec                __dinit_clear_needed
+
+.text.NVMCTRL_Initialize%24
+                0x0000000000000400        0xc
+ .text.NVMCTRL_Initialize
+                0x0000000000000400        0xc build/pic32cm_mc00_curiosity_pro/production/_ext/1131319065/plib_nvmctrl.o
+                0x0000000000000400                NVMCTRL_Initialize
+
+.text.TC0_TimerCallbackRegister%25
+                0x000000000000040c        0xc
+ .text.TC0_TimerCallbackRegister
+                0x000000000000040c        0xc build/pic32cm_mc00_curiosity_pro/production/_ext/706311864/plib_tc0.o
+                0x000000000000040c                TC0_TimerCallbackRegister
+
+.text.TC0_Callback_InterruptHandler%26
+                0x0000000000000418        0xc
+ .text.TC0_Callback_InterruptHandler
+                0x0000000000000418        0xc build/pic32cm_mc00_curiosity_pro/production/_ext/1360937237/main.o
+                0x0000000000000418                TC0_Callback_InterruptHandler
+
+.text.__dummy_decompress%27
+                0x0000000000000424        0x4
+ .text.__dummy_decompress
+                0x0000000000000424        0x4 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+                0x0000000000000424                __dinit_decompress
+                0x0000000000000424                __dinit_copy_val_data
+                0x0000000000000424                __dinit_copy_emb
+
+.text.EVSYS_Initialize%28
+                0x0000000000000386        0x2
+ .text.EVSYS_Initialize
+                0x0000000000000386        0x2 build/pic32cm_mc00_curiosity_pro/production/_ext/678784915/plib_evsys.o
+                0x0000000000000386                EVSYS_Initialize
+
+.text.Dummy_Handler%29
+                0x00000000000003d6        0x2
+ .text.Dummy_Handler
+                0x00000000000003d6        0x2 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/interrupts.o
+                0x00000000000003d6                SVCall_Handler
+                0x00000000000003d6                DMAC_Handler
+                0x00000000000003d6                TC2_Handler
+                0x00000000000003d6                AC_Handler
+                0x00000000000003d6                SysTick_Handler
+                0x00000000000003d6                PendSV_Handler
+                0x00000000000003d6                SERCOM1_Handler
+                0x00000000000003d6                TCC1_Handler
+                0x00000000000003d6                SERCOM2_Handler
+                0x00000000000003d6                TCC0_Handler
+                0x00000000000003d6                RTC_Handler
+                0x00000000000003d6                ADC1_Handler
+                0x00000000000003d6                EIC_Handler
+                0x00000000000003d6                WDT_Handler
+                0x00000000000003d6                TC4_Handler
+                0x00000000000003d6                TC1_Handler
+                0x00000000000003d6                TC3_Handler
+                0x00000000000003d6                SDADC_Handler
+                0x00000000000003d6                Dummy_Handler
+                0x00000000000003d6                ADC0_Handler
+                0x00000000000003d6                TSENS_Handler
+                0x00000000000003d6                PDEC_Handler
+                0x00000000000003d6                TCC2_Handler
+                0x00000000000003d6                EVSYS_Handler
+                0x00000000000003d6                SERCOM3_Handler
+                0x00000000000003d6                NVMCTRL_Handler
+                0x00000000000003d6                SYSTEM_Handler
+                0x00000000000003d6                SERCOM0_Handler
+                0x00000000000003d6                DAC_Handler
+                0x00000000000003d6                FREQM_Handler
+
+.text.NonMaskableInt_Handler%30
+                0x00000000000003fe        0x2
+ .text.NonMaskableInt_Handler
+                0x00000000000003fe        0x2 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/exceptions.o
+                0x00000000000003fe                NonMaskableInt_Handler
+
+.text.HardFault_Handler%31
+                0x0000000000000428        0x2
+ .text.HardFault_Handler
+                0x0000000000000428        0x2 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/exceptions.o
+                0x0000000000000428                HardFault_Handler
+
+.text.Dummy_App_Func%32
+                0x000000000000042a        0x2
+ .text.Dummy_App_Func
+                0x000000000000042a        0x2 build/pic32cm_mc00_curiosity_pro/production/_ext/1997885285/startup_xc32.o
+                0x000000000000042a                _on_reset
+                0x000000000000042a                _on_bootstrap
+                0x000000000000042a                __xc32_on_reset
+                0x000000000000042a                Dummy_App_Func
+                0x000000000000042a                __xc32_on_bootstrap
+
+.text.__dummy_init_tls%33
+                0x000000000000042c        0x2
+ .text.__dummy_init_tls
+                0x000000000000042c        0x2 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libpic32c.a(data_init.o)
+                0x000000000000042c                xc32_init_tls
+
+.text.__dummy%34
+                0x000000000000042e        0x2
+ .text.__dummy  0x000000000000042e        0x2 c:/program files/microchip/xc32/v4.60/bin/bin/../../lib/gcc/pic32c/8.3.1/../../../../pic32c/lib/thumb/v6-m/nofp\libc-musl.a(__libc_start_main.o)
+                0x000000000000042e                __init_stdio
+                0x000000000000042e                __init_host

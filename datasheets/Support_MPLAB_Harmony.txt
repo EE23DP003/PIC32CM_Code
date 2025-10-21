@@ -1,0 +1,19 @@
+TCO -> 30s, 32KHz, 32 bit mode
+TC1 -> client to TC0 since TC0 is in 32 bit mode
+TC2 -> 0.5s, 48MHz, 1024 pre-scaler, 16 bit mode
+TC3 -> 1s, 48MHz, 1024 pre-scaler, 16 bit mode
+TC4 -> 0.001s, 48MHZ, 16 bit mode
+
+
+
+MPLAB® DISCOVER:
+This platform on Microchip's website allows searching for projects and examples based on specific PIC32MK devices (e.g., PIC32MK1024MCM100). You can find examples demonstrating features like multiple USB Host/Device operation.
+
+GitHub Repository (Microchip-MPLAB-Harmony/mc_apps_pic32mk):
+This repository hosts the source code for various PIC32MK application examples, providing a direct way to access and explore the code. Online documentation for these examples is also available.
+
+Getting Started Guides and Training Modules:
+Microchip offers detailed guides, such as "Getting Started with MPLAB® Harmony v3 Peripheral Libraries on PIC32MK GP MCUs," which walk you through the process of setting up a project and integrating example code. These guides often include code snippets and instructions for specific functionalities like reading sensor data or controlling LEDs.
+
+MPLAB® Code Configurator (MCC):
+This graphical tool within MPLAB X IDE simplifies the configuration of peripherals and middleware, generating the necessary Harmony framework code.
